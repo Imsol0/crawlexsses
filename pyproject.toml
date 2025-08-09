@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crawlexsses"
+version = "1.0.0"
+description = "XSS discovery tool combining subfinder, httpx, waymore, katana, gau, gf, uro, and knoxnl"
+authors = [{ name = "0xhollow" }]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Information Technology",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX :: Linux",
+  "Operating System :: MacOS",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Security",
+  "Topic :: Internet :: WWW/HTTP",
+]
+
+[project.scripts]
+crawlexsses = "crawlexsses:main"
+
+
