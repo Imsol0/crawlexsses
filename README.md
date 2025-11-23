@@ -1,5 +1,3 @@
-# crawlexsses
-
 crawlexsses is a Unix-first CLI that chains together best-in-class recon tools to discover potential XSS endpoints at scale. It automates:
 
 - Subdomain discovery and probing
@@ -84,7 +82,7 @@ export KNOXSS_API_KEY="YOUR_KNOXSS_API_KEY"
 
 ```bash
 # Clone the repository
-git clone https://github.com/0xhollow/crawlexsses.git
+git clone https://github.com/Imsol0/crawlexsses.git
 cd crawlexsses
 
 # Install dependencies
